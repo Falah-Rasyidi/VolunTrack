@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="participationTable" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1120.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewHistoryAdminController">
+   <columns>
+      <TableColumn fx:id="registrationID" maxWidth="200.0" minWidth="-1.0" prefWidth="96.0" text="Registration ID" />
+      <TableColumn fx:id="username" maxWidth="200.0" minWidth="-1.0" prefWidth="96.0" text="Username" />
+      <TableColumn fx:id="registrationDate" minWidth="0.0" prefWidth="130.0" text="Registration date" />
+      <TableColumn fx:id="projectTitle" minWidth="0.0" prefWidth="125.0" text="Project title" />
+      <TableColumn fx:id="projectLocation" prefWidth="138.0" text="Project location" />
+      <TableColumn fx:id="projectDay" minWidth="4.0" prefWidth="84.0" text="Project day" />
+      <TableColumn fx:id="registeredSlots" minWidth="0.0" prefWidth="119.0" text="# of registered slots" />
+      <TableColumn fx:id="totalHours" minWidth="0.0" prefWidth="133.0" text="Total volunteer hours" />
+      <TableColumn fx:id="totalValue" minWidth="7.0" prefWidth="196.0" text="Total contribution value ($AUD)" />
+   </columns>
+</TableView>
