@@ -1,5 +1,5 @@
 # VolunTrack
-![](./voluntrackdemo.gif)
+![](./voluntrackdemo.png)
 
 ## Table of contents
 * [General info](#general-info)
@@ -15,7 +15,7 @@ JavaFX application that tracks community volunteering projects.
 * JavaFX
 
 ## Setup
-Before cloning the repository, ensure you have the necessary JDK installed (that includes JavaFX). One can be installed from [Azul](https://www.azul.com/downloads/?package=jdk#zulu).
+Before cloning the repository, ensure you have the necessary JDK installed (that includes JavaFX). One can be installed from [Azul](https://www.azul.com/downloads/?package=jdk#zulu). After installing the JDK, configure the project's Java runtime by setting it as the project's JDK.
 
 After installing the JDK, you may start the application from VSCode.
 
